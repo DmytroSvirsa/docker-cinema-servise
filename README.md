@@ -14,7 +14,6 @@ set DB_HOST=<db hostname>
 set DB_NAME=<db name>
 set DB_USER=<db username>
 set DB_PASSWORD=<db password>
-set SECRET_KEY=<secret key>
 python manage.py createsuperuser
 python manage.py runserver
 ```
